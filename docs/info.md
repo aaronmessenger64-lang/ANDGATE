@@ -9,12 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+When both inputs 0 and 1 are true, output 0 will return true
 
 ## How to test
 
-Explain how to use your project
+logic table or something, turn both inputs 0 and 1 on 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+he Wokwi simulation uses two input switches and one LED.
+The LED anode connects to OUT0 and the cathode connects to ground.
+These components are simulation controls and indicators outside the chip.
+No external hardware is needed to generate or inspect the GDS file.
